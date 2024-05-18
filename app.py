@@ -92,7 +92,7 @@ def avatar_generator(ava_gender, i):
 # Main Title
 st.header("°◌ Customer Persona ◌°")
 
-# Customer info by group
+# Customer info by grou
 summary = pd.read_csv('../data/summary_result.csv')
 group = summary.group
 group_pop = summary.group_size
